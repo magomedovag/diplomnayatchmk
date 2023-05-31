@@ -19,7 +19,7 @@ export const Header = () => {
           <nav id="nav" className={!open ? 'nav' : 'nav open'}>
             <ul className="nav-list">
               <li className="nav-item">
-                <Link to="/" className="nav-link active">
+                <Link to="/" className="nav-link">
                   Главная
                 </Link>
               </li>
@@ -29,17 +29,17 @@ export const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/material" className="nav-link">
+              <a href="#test" className="nav-link">
                   Тесты
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <a href="#!" className="nav-link">
+                <a href="#disciplina" className="nav-link">
                   О дисциплине
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#!" className="nav-link">
+                <a href="#contact" className="nav-link">
                   Контакты
                 </a>
               </li>

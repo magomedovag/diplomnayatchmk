@@ -63,7 +63,7 @@ export const Home = ({ signInGoogle }) => {
         </div>
       </section>
 
-      <section className="portfolio">
+      <section id = "disciplina" className="portfolio">
         <div className="container">
           <div className="portfolio-title">
             <h2 className="title-1">О дисциплине</h2>
