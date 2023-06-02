@@ -190,6 +190,17 @@ body {
     text-decoration: underline;
 }
 
+.service-card-titl {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.service-card-titl a {
+    color: #32557f;
+}
+
 a {
     color: black;
 }
@@ -241,6 +252,7 @@ a {
 .contacts {
     padding: 90px 0;
     text-align: center;
+    background-color: #f1f1f1;
 }
 
 .contacts-title {

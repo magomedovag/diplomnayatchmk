@@ -2,6 +2,8 @@ import React from 'react';
 import img from '../../img/header/photo2.png';
 import img6 from '../../img/material/6.svg'
 import img7 from '../../img/material/7.svg'
+import img8 from '../../img/material/8.svg'
+import img9 from '../../img/material/9.svg'
 import doc1 from '../../doc/first.pdf'
 import doc2 from '../../doc/2_Наибольший_общий_делитель_и_наименьшее_общее_кратное.pdf'
 import doc3 from '../../doc/3.pdf'
@@ -20,6 +22,8 @@ import doc15 from '../../doc/15.pdf'
 import doc16 from '../../doc/16.pdf'
 import doc17 from '../../doc/17.pdf'
 import doc18 from '../../doc/18.pdf'
+import doc20 from '../../doc/zadachi.pdf'
+import doc21 from '../../doc/lab.pdf'
 // import doc19 from '../../doc/20201027-p35.pdf'
 
 export const Material = () => {
@@ -153,6 +157,52 @@ export const Material = () => {
               <a href={doc18}>
                 <li>Детерминированные алгоритмы проверки чисел на простоту</li>
               </a>
+              {/* <br/>
+              <a href={doc20}>
+                <p className="zadacha">Задачи и упражнения</p>
+              </a>
+
+              <a href={doc21}>
+                <p className="zadacha">Лабораторные работы</p>
+              </a> */}
+            </div>
+            
+          </div>
+          
+        </div>
+      </section>
+      <section id = "test" className="services">
+        <div className="container">
+          <div className="portfolio-title" data-aos="fade-down">
+            <h1 className="title-1">Практика</h1>
+          </div>
+          <div className="services-row">
+            <div className="service-card" data-aos="fade-down">
+              <img
+                className="service-card-img"
+                src={img8}
+                alt="material"
+              />
+              <h3 className="service-card-titl">
+                <a href={doc20}>
+                 Задачи и упражнения
+                </a>
+              </h3>
+              
+            </div>
+
+            <div className="service-card" data-aos="fade-down">
+              <img
+                className="service-card-img"
+                src={img9}
+                alt="test"
+              />
+              <h3 className="service-card-titl">
+                <a href={doc21}>
+                  Лабораторные работы
+                </a>
+              </h3>
+             
             </div>
           </div>
         </div>
